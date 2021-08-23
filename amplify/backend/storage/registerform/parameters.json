@@ -1,0 +1,5 @@
+{
+    "tableName": "registerform",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

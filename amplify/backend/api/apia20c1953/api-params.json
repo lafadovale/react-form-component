@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/contact",
+      "lambdaFunction": "registerform",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/contact"
+    }
+  ],
+  "resourceName": "apia20c1953",
+  "apiName": "apia20c1953",
+  "functionArns": [
+    {
+      "lambdaFunction": "registerform"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-formcomponent-dev-221236-authRole",
+    "unAuthRoleName": "amplify-formcomponent-dev-221236-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "registerform",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
